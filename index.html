@@ -1,0 +1,1167 @@
+<!DOCTYPE html>
+<html class="dark" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Abubakar Usman Damilare | Innovator & Engineer</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    
+    <script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              colors: {
+                "primary": "#135bec",
+                "background-light": "#f6f6f8",
+                "background-dark": "#0a0f18",
+                "neon-cyan": "#00f2ff",
+                "neon-purple": "#b026ff",
+              },
+              fontFamily: {
+                "display": ["Roboto", "sans-serif"],
+                "mono": ["Roboto Mono", "monospace"]
+              }
+            },
+          },
+        }
+    </script>
+    <style>
+        body { font-family: 'Roboto', sans-serif; }
+        .grid-bg { background-image: linear-gradient(to right, rgba(19, 91, 236, 0.05) 1px, transparent 1px), linear-gradient(to bottom, rgba(19, 91, 236, 0.05) 1px, transparent 1px); background-size: 40px 40px; }
+        .terminal-shadow { box-shadow: 0 0 25px rgba(19, 91, 236, 0.1); }
+        .typing-effect { overflow: hidden; white-space: nowrap; border-right: 2px solid #135bec; animation: typing 3s steps(30, end), blink .75s step-end infinite; }
+        @keyframes typing { from { width: 0 } to { width: 100% } }
+        @keyframes blink { from, to { border-color: transparent } 50% { border-color: #135bec; } }
+    </style>
+</head>
+<body class="bg-background-dark text-slate-200 selection:bg-primary selection:text-white overflow-x-hidden">
+
+    <div class="fixed inset-0 grid-bg pointer-events-none z-0"></div>
+
+    <header class="fixed top-0 left-0 w-full z-50 px-6 py-4">
+        <nav class="max-w-6xl mx-auto flex items-center justify-between bg-slate-900/60 backdrop-blur-xl border border-white/10 px-6 py-3 rounded-full shadow-lg">
+            <div class="flex items-center gap-3">
+                <div class="w-9 h-9 bg-gradient-to-br from-primary to-blue-600 rounded-full flex items-center justify-center">
+                    <span class="text-white font-bold text-xs tracking-wider">AUD</span>
+                </div>
+                <span class="font-display font-semibold text-white tracking-widest">ABUBAKAR USMAN DAMILARE</span>
+            </div>
+            <ul class="hidden md:flex items-center gap-6 text-sm font-medium">
+                <li><a class="hover:text-primary transition-colors" href="#about">About</a></li>
+                <li><a class="hover:text-primary transition-colors" href="#stack">Tech Stack</a></li>
+                <li><a class="hover:text-primary transition-colors" href="#ventures">Ventures</a></li>
+                <li><a class="hover:text-primary transition-colors" href="#humanitarian">Impact</a></li>
+                <li><a class="px-5 py-2 bg-primary text-white rounded-full hover:bg-primary/90 transition-all shadow-lg shadow-primary/25" href="#contact">Uplink</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="relative min-h-screen flex flex-col justify-center px-6 pt-24 pb-12 z-10">
+        <section class="max-w-6xl mx-auto w-full grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+            
+            <div class="lg:col-span-7 flex flex-col gap-6">
+
+                <div class="bg-[#0f172a] rounded-xl border border-white/10 overflow-hidden terminal-shadow">
+                    <div class="flex items-center px-4 py-3 bg-slate-900 border-b border-white/5 gap-2">
+                        <div class="w-3 h-3 rounded-full bg-red-500"></div><div class="w-3 h-3 rounded-full bg-amber-500"></div><div class="w-3 h-3 rounded-full bg-emerald-500"></div>
+                        <span class="ml-2 text-[10px] font-mono text-slate-500">dhunurayn@me-lagos ~ aud</span>
+                    </div>
+                    <div class="p-6 font-mono text-base">
+                        <div class="flex gap-2 mb-4"><span class="text-emerald-400">➜</span><span class="text-blue-400">~</span><span class="text-white typing-effect">dhunurayn</span></div>
+                        <h1 class="text-4xl md:text-5xl lg:text-6xl font-display font-bold text-white mb-3 tracking-tight">Abubakar Usman Damilare</h1>
+                        <div class="flex flex-wrap gap-3 font-semibold mb-6 text-sm">
+                            <span class="text-neon-cyan">#FullStackDev</span> <span class="text-slate-600">/</span>
+                            <span class="text-purple-400">#MechatronicsEngineer</span> <span class="text-slate-600">/</span>
+                            <span class="text-emerald-400">#Innovator/Entreprenure</span>
+                        </div>
+                        <div class="space-y-3 text-slate-400 border-l-2 border-white/10 pl-4">
+                            <p><span class="text-emerald-400 font-bold">➜</span> <span class="text-primary">Location:</span> <span class="text-white">Lagos / Minna, Nigeria 🇳🇬</span></p>
+                            <p><span class="text-emerald-400 font-bold">➜</span> <span class="text-primary">Education:</span> <span class="text-white">Mechatronics Engineering - FUTMINNA</span></p>
+                            <p><span class="text-emerald-400 font-bold">➜</span> <span class="text-primary">Mission:</span> <span class="text-slate-300">Bridging hardware precision with software scalability through Entreprenureship.</span></p>
+                        </div>
+                        
+                        <div class="flex flex-wrap gap-4 mt-8 pt-6 border-t border-white/10">
+                            <a href="#" class="px-6 py-3 bg-transparent border border-white/20 text-white font-bold rounded-full hover:bg-white/10 transition-colors flex items-center gap-2">
+                                <span class="material-symbols-outlined">download</span> Download CV
+                            </a>
+                            <a href="#contact" class="px-6 py-3 bg-primary text-white font-bold rounded-full hover:scale-105 transition-all shadow-lg shadow-primary/25 flex items-center gap-2">
+                                <span class="material-symbols-outlined">send</span> Reach Out
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+           <div class="lg:col-span-5 relative group hidden lg:block">
+                <div class="absolute -inset-4 bg-gradient-to-r from-primary via-purple-500 to-neon-cyan rounded-[2.5rem] blur-2xl opacity-20 group-hover:opacity-40 transition duration-1000 animate-pulse"></div>
+                
+                <div class="relative rounded-[2rem] border border-white/10 overflow-hidden aspect-[4/5] shadow-2xl transition-all duration-500 hover:-translate-y-2">
+                    
+                    <img src="usman.jpg" alt="Abubakar Usman" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"/>
+                    
+                    <div class="absolute bottom-0 left-0 w-full h-1/3 bg-gradient-to-t from-[#0a0f18] to-transparent pointer-events-none"></div>
+
+                    <div class="absolute bottom-8 left-8 p-4 bg-slate-800/80 backdrop-blur-md border border-white/10 rounded-xl shadow-xl">
+                        <div class="text-[10px] text-primary uppercase font-bold tracking-widest mb-2 flex items-center gap-2">
+                            <div class="w-2 h-2 bg-emerald-400 rounded-full animate-pulse"></div>
+                            System Status
+                        </div>
+                        <div class="space-y-2">
+                            <div class="h-1.5 w-32 bg-slate-700 rounded-full overflow-hidden">
+                                <div class="h-full bg-gradient-to-r from-primary to-neon-cyan w-[85%]"></div>
+                            </div>
+                            <div class="flex justify-between text-[10px] text-slate-400 font-mono">
+                                <span>Compiling...</span>
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <section id="about" class="relative py-20 px-6 bg-slate-900/50 border-t border-white/5 z-10">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-3xl md:text-4xl font-display font-bold text-white mb-8"><span class="text-primary">02.</span> THE TRANSFORMATION</h2>
+           <div class="prose prose-invert mx-auto text-slate-400 leading-relaxed text-left md:text-center">
+                <p class="mb-4">
+                    My journey didn't start with code; it started with community. My mindset was shaped early on by the discipline and service ingrained in me by the <strong class="text-white">Scout movement, MSSN, Interact (Rotary Club),</strong> and the <strong class="text-white">Nigeria Red Cross</strong>. Volunteering with organizations like <strong class="text-white">WARIF</strong> and <strong class="text-white">Debra Palace Initiative</strong> taught me that true impact requires empathy, but to scale that impact, I needed to master business and technology.
+                </p>
+                <p class="mb-4">
+                    The strategic spark ignited in August 2024 at the <strong class="text-white">Youth Entrepreneurship and Leadership Academy (YELA)</strong>. Through rigorous case studies, I learned to architect and pitch viable business models. Soon after, the <strong class="text-white">Be-MINT</strong> program transformed me into an active builder, pivoting me into digital prototyping. This momentum led to specialized CAD training with <strong class="text-white">Siemens</strong>, where I mastered Solid Edge to bring mechanical concepts to reality.
+                </p>
+                <p class="mb-4">
+                    Armed with a multidisciplinary toolkit, I dove into the industry. I joined Team VOC AI to a 1st Place victory at <strong class="text-white">Wema Bank's Hackaholics 6.0</strong>, joined <strong class="text-white">JOVID Engineering Solutions</strong> as a Design Engineering Intern, and drove impact as a <strong class="text-white">CEAP Ambassador & Product Manager</strong> also the Social Media Manager at Cybernovr. My commitment to this path was honored when I became a <strong class="text-white">Debra Palace Initiative (DPI) Scholar</strong>.
+                </p>
+                <p class="text-lg mt-8 text-white font-display border-t border-white/10 pt-6">
+                    Today, as a Teenage Mechatronics Engineering student, my mission is clear:<br>
+                    <span class="text-primary font-bold text-xl block mt-2">Bridging hardware precision with software scalability through Entrepreneurship.</span>
+                </p>
+            </div>
+        </div>
+    </section>
+
+<section id="stack" class="relative py-20 px-6 border-t border-white/5 z-10">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-display font-bold text-white mb-12"><span class="text-primary">03.</span> TECH_STACK</h2>
+            
+            <div class="flex flex-wrap justify-center gap-6">
+                
+                <div class="relative p-[2px] rounded-xl overflow-hidden group w-full sm:w-[calc(50%-0.75rem)] md:w-[calc(33.333%-1rem)] max-w-[380px]">
+                    <div class="absolute inset-0 bg-gradient-to-r from-orange-600 to-orange-400 opacity-30 group-hover:opacity-100 animate-pulse transition-opacity duration-500"></div>
+                    <div class="relative bg-[#0a0f18] h-full rounded-[10px] p-6 flex flex-col items-center text-center transition-transform duration-300 group-hover:scale-[0.98]">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="HTML5" class="w-14 h-14 mb-4 group-hover:-translate-y-2 transition-transform duration-300"/>
+                        <h3 class="text-white font-bold text-lg mb-1">HTML</h3>
+                        <div class="text-[10px] text-slate-500 uppercase tracking-widest mb-3 border-b border-white/10 pb-2 w-full">Structure</div>
+                        <p class="text-sm text-slate-400 leading-relaxed">The backbone of my web structures, ensuring semantic, accessible, and SEO-friendly web architectures.</p>
+                    </div>
+                </div>
+
+                <div class="relative p-[2px] rounded-xl overflow-hidden group w-full sm:w-[calc(50%-0.75rem)] md:w-[calc(33.333%-1rem)] max-w-[380px]">
+                    <div class="absolute inset-0 bg-gradient-to-r from-blue-600 to-blue-400 opacity-30 group-hover:opacity-100 animate-pulse transition-opacity duration-500"></div>
+                    <div class="relative bg-[#0a0f18] h-full rounded-[10px] p-6 flex flex-col items-center text-center transition-transform duration-300 group-hover:scale-[0.98]">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="CSS3" class="w-14 h-14 mb-4 group-hover:-translate-y-2 transition-transform duration-300"/>
+                        <h3 class="text-white font-bold text-lg mb-1">CSS</h3>
+                        <div class="text-[10px] text-slate-500 uppercase tracking-widest mb-3 border-b border-white/10 pb-2 w-full">Styling</div>
+                        <p class="text-sm text-slate-400 leading-relaxed">Crafting responsive, pixel-perfect interfaces with modern styling rules, animations, and Tailwind CSS.</p>
+                    </div>
+                </div>
+
+                <div class="relative p-[2px] rounded-xl overflow-hidden group w-full sm:w-[calc(50%-0.75rem)] md:w-[calc(33.333%-1rem)] max-w-[380px]">
+                    <div class="absolute inset-0 bg-gradient-to-r from-yellow-500 to-yellow-300 opacity-30 group-hover:opacity-100 animate-pulse transition-opacity duration-500"></div>
+                    <div class="relative bg-[#0a0f18] h-full rounded-[10px] p-6 flex flex-col items-center text-center transition-transform duration-300 group-hover:scale-[0.98]">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript" class="w-14 h-14 mb-4 group-hover:-translate-y-2 transition-transform duration-300"/>
+                        <h3 class="text-white font-bold text-lg mb-1">JavaScript</h3>
+                        <div class="text-[10px] text-slate-500 uppercase tracking-widest mb-3 border-b border-white/10 pb-2 w-full">Logic</div>
+                        <p class="text-sm text-slate-400 leading-relaxed">Bringing static pages to life with dynamic interactivity, API integrations, and complex frontend logic.</p>
+                    </div>
+                </div>
+
+                <div class="relative p-[2px] rounded-xl overflow-hidden group w-full sm:w-[calc(50%-0.75rem)] md:w-[calc(33.333%-1rem)] max-w-[380px]">
+                    <div class="absolute inset-0 bg-gradient-to-r from-cyan-600 to-cyan-400 opacity-30 group-hover:opacity-100 animate-pulse transition-opacity duration-500"></div>
+                    <div class="relative bg-[#0a0f18] h-full rounded-[10px] p-6 flex flex-col items-center text-center transition-transform duration-300 group-hover:scale-[0.98]">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React" class="w-14 h-14 mb-4 group-hover:-translate-y-2 transition-transform duration-300 group-hover:animate-[spin_3s_linear_infinite]"/>
+                        <h3 class="text-white font-bold text-lg mb-1">React</h3>
+                        <div class="text-[10px] text-slate-500 uppercase tracking-widest mb-3 border-b border-white/10 pb-2 w-full">UI Framework</div>
+                        <p class="text-sm text-slate-400 leading-relaxed">Building modular, component-driven single-page applications for highly reactive user experiences.</p>
+                    </div>
+                </div>
+
+                <div class="relative p-[2px] rounded-xl overflow-hidden group w-full sm:w-[calc(50%-0.75rem)] md:w-[calc(33.333%-1rem)] max-w-[380px]">
+                    <div class="absolute inset-0 bg-gradient-to-r from-blue-500 to-yellow-400 opacity-30 group-hover:opacity-100 animate-pulse transition-opacity duration-500"></div>
+                    <div class="relative bg-[#0a0f18] h-full rounded-[10px] p-6 flex flex-col items-center text-center transition-transform duration-300 group-hover:scale-[0.98]">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python" class="w-14 h-14 mb-4 group-hover:-translate-y-2 transition-transform duration-300"/>
+                        <h3 class="text-white font-bold text-lg mb-1">Python</h3>
+                        <div class="text-[10px] text-slate-500 uppercase tracking-widest mb-3 border-b border-white/10 pb-2 w-full">Backend / AI</div>
+                        <p class="text-sm text-slate-400 leading-relaxed">Powering backend data processing, scripting automation, and integrating machine learning models.</p>
+                    </div>
+                </div>
+
+                <div class="relative p-[2px] rounded-xl overflow-hidden group w-full sm:w-[calc(50%-0.75rem)] md:w-[calc(33.333%-1rem)] max-w-[380px]">
+                    <div class="absolute inset-0 bg-gradient-to-r from-orange-500 to-blue-500 opacity-30 group-hover:opacity-100 animate-pulse transition-opacity duration-500"></div>
+                    <div class="relative bg-[#0a0f18] h-full rounded-[10px] p-6 flex flex-col items-center text-center transition-transform duration-300 group-hover:scale-[0.98]">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" alt="MySQL" class="w-14 h-14 mb-4 group-hover:-translate-y-2 transition-transform duration-300"/>
+                        <h3 class="text-white font-bold text-lg mb-1">MySQL</h3>
+                        <div class="text-[10px] text-slate-500 uppercase tracking-widest mb-3 border-b border-white/10 pb-2 w-full">Database</div>
+                        <p class="text-sm text-slate-400 leading-relaxed">Designing robust relational database schemas and optimizing queries for efficient, secure data storage.</p>
+                    </div>
+                </div>
+
+                <div class="relative p-[2px] rounded-xl overflow-hidden group w-full sm:w-[calc(50%-0.75rem)] md:w-[calc(33.333%-1rem)] max-w-[380px]">
+                    <div class="absolute inset-0 bg-gradient-to-r from-indigo-600 to-indigo-400 opacity-30 group-hover:opacity-100 animate-pulse transition-opacity duration-500"></div>
+                    <div class="relative bg-[#0a0f18] h-full rounded-[10px] p-6 flex flex-col items-center text-center transition-transform duration-300 group-hover:scale-[0.98]">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" alt="C" class="w-14 h-14 mb-4 group-hover:-translate-y-2 transition-transform duration-300"/>
+                        <h3 class="text-white font-bold text-lg mb-1">C</h3>
+                        <div class="text-[10px] text-slate-500 uppercase tracking-widest mb-3 border-b border-white/10 pb-2 w-full">Microcontrollers</div>
+                        <p class="text-sm text-slate-400 leading-relaxed">Writing low-level, high-performance code for direct hardware interfacing and bare-metal programming.</p>
+                    </div>
+                </div>
+
+                <div class="relative p-[2px] rounded-xl overflow-hidden group w-full sm:w-[calc(50%-0.75rem)] md:w-[calc(33.333%-1rem)] max-w-[380px]">
+                    <div class="absolute inset-0 bg-gradient-to-r from-purple-600 to-blue-500 opacity-30 group-hover:opacity-100 animate-pulse transition-opacity duration-500"></div>
+                    <div class="relative bg-[#0a0f18] h-full rounded-[10px] p-6 flex flex-col items-center text-center transition-transform duration-300 group-hover:scale-[0.98]">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" alt="C++" class="w-14 h-14 mb-4 group-hover:-translate-y-2 transition-transform duration-300"/>
+                        <h3 class="text-white font-bold text-lg mb-1">C++</h3>
+                        <div class="text-[10px] text-slate-500 uppercase tracking-widest mb-3 border-b border-white/10 pb-2 w-full">Embedded Systems</div>
+                        <p class="text-sm text-slate-400 leading-relaxed">Developing object-oriented logic for complex embedded systems and real-time mechatronic control loops.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+<section id="engineering" class="relative py-24 px-6 bg-slate-900/50 border-t border-white/5 z-10">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-display font-bold text-white mb-12"><span class="text-neon-cyan">04.</span> ENGINEERING_BAY</h2>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+                
+                <div class="group relative bg-[#0a0f18] border border-white/10 rounded-2xl overflow-hidden hover:border-neon-cyan/50 transition-all duration-500 hover:shadow-[0_0_35px_rgba(0,242,255,0.15)]">
+                    
+                    <div class="relative h-80 overflow-hidden bg-slate-800 flex items-center justify-center">
+                        
+                        <img src="derby.jpg" alt="Derby Car Assembly" class="w-full h-full object-cover opacity-60 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700"/>
+                        
+                        <div class="absolute inset-0 bg-gradient-to-t from-[#0a0f18] via-[#0a0f18]/40 to-transparent pointer-events-none"></div>
+                        
+                        <div class="absolute top-6 right-6 bg-neon-cyan/90 backdrop-blur-md px-4 py-1.5 rounded-full text-[10px] font-bold text-black uppercase tracking-widest shadow-lg">
+                            Solid Edge Assembly
+                        </div>
+                    </div>
+                    
+                    <div class="p-8 relative z-20 -mt-8">
+                        <h3 class="text-2xl font-bold text-white mb-3 group-hover:text-neon-cyan transition-colors">Derby Car Assembly</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed mb-6">
+                            A complete mechanical assembly modeled in Solid Edge. Focused on precise component mating, aerodynamic structural design, and drafting standard manufacturing blueprints for physical production.
+                        </p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-white/5 border border-white/10 rounded-md text-[11px] font-mono text-neon-cyan">CAD Assembly</span>
+                            <span class="px-3 py-1 bg-white/5 border border-white/10 rounded-md text-[11px] font-mono text-neon-cyan">Solid Edge</span>
+                            <span class="px-3 py-1 bg-white/5 border border-white/10 rounded-md text-[11px] font-mono text-neon-cyan">Mechanical Drafting</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group relative bg-[#0a0f18] border border-white/10 rounded-2xl overflow-hidden hover:border-purple-500/50 transition-all duration-500 hover:shadow-[0_0_35px_rgba(176,38,255,0.15)]">
+                    
+                    <div class="relative h-80 overflow-hidden bg-slate-800 flex items-center justify-center">
+                        
+                        <img src="embeded.png"alt="Arduino Perimeter Alarm" class="w-full h-full object-cover opacity-60 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700"/>
+                        
+                        <div class="absolute inset-0 bg-gradient-to-t from-[#0a0f18] via-[#0a0f18]/40 to-transparent pointer-events-none"></div>
+                        
+                        <div class="absolute top-6 right-6 bg-purple-500/90 backdrop-blur-md px-4 py-1.5 rounded-full text-[10px] font-bold text-white uppercase tracking-widest shadow-lg">
+                            Arduino Nano
+                        </div>
+                    </div>
+                    
+                    <div class="p-8 relative z-20 -mt-8">
+                        <h3 class="text-2xl font-bold text-white mb-3 group-hover:text-purple-400 transition-colors">Perimeter Intruder Alarm</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed mb-6">
+                            An embedded security system utilizing an Arduino Nano as the core controller. It continuously polls a push-button tripwire input at high speeds. Upon breach detection, the logic instantly triggers a dual-deterrent output: a flashing LED and an audio siren.
+                        </p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-white/5 border border-white/10 rounded-md text-[11px] font-mono text-purple-300">C/C++</span>
+                            <span class="px-3 py-1 bg-white/5 border border-white/10 rounded-md text-[11px] font-mono text-purple-300">Microcontrollers</span>
+                            <span class="px-3 py-1 bg-white/5 border border-white/10 rounded-md text-[11px] font-mono text-purple-300">I/O Logic</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+<section id="strategy" class="relative py-24 px-6 border-t border-white/5 z-10 bg-black/30">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-display font-bold text-white mb-16"><span class="text-purple-500">05.</span> STRATEGY_CORE</h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                
+                <div class="bg-[#0a0f18] border border-white/10 p-8 rounded-2xl hover:border-purple-500/50 transition-all duration-500 hover:-translate-y-1 hover:shadow-[0_10px_30px_rgba(168,85,247,0.1)] relative overflow-hidden group">
+                    <div class="absolute top-0 right-0 w-32 h-32 bg-purple-500/10 rounded-full blur-3xl group-hover:bg-purple-500/20 transition-colors duration-500"></div>
+                    
+                    <span class="material-symbols-outlined text-4xl text-purple-400 mb-6 block group-hover:scale-110 transition-transform">design_services</span>
+                    <h3 class="text-xl font-bold text-white mb-6 border-b border-white/10 pb-4">Design & Aesthetics</h3>
+                    
+                    <div class="flex flex-wrap gap-3">
+                        <span class="px-4 py-2 bg-purple-500/10 border border-purple-500/20 text-purple-300 rounded-lg text-sm font-medium">Figma</span>
+                        <span class="px-4 py-2 bg-purple-500/10 border border-purple-500/20 text-purple-300 rounded-lg text-sm font-medium">Canva</span>
+                        <span class="px-4 py-2 bg-purple-500/10 border border-purple-500/20 text-purple-300 rounded-lg text-sm font-medium">UI/UX Design</span>
+                        <span class="px-4 py-2 bg-purple-500/10 border border-purple-500/20 text-purple-300 rounded-lg text-sm font-medium">Brand Identity</span>
+                        <span class="px-4 py-2 bg-purple-500/10 border border-purple-500/20 text-purple-300 rounded-lg text-sm font-medium">Graphic Design</span>
+                    </div>
+                </div>
+
+                <div class="bg-[#0a0f18] border border-white/10 p-8 rounded-2xl hover:border-emerald-500/50 transition-all duration-500 hover:-translate-y-1 hover:shadow-[0_10px_30px_rgba(16,185,129,0.1)] relative overflow-hidden group">
+                    <div class="absolute top-0 right-0 w-32 h-32 bg-emerald-500/10 rounded-full blur-3xl group-hover:bg-emerald-500/20 transition-colors duration-500"></div>
+                    
+                    <span class="material-symbols-outlined text-4xl text-emerald-400 mb-6 block group-hover:scale-110 transition-transform">lightbulb</span>
+                    <h3 class="text-xl font-bold text-white mb-6 border-b border-white/10 pb-4">Business & Execution</h3>
+                    
+                    <div class="flex flex-wrap gap-3">
+                        <span class="px-4 py-2 bg-emerald-500/10 border border-emerald-500/20 text-emerald-300 rounded-lg text-sm font-medium">Product Management</span>
+                        <span class="px-4 py-2 bg-emerald-500/10 border border-emerald-500/20 text-emerald-300 rounded-lg text-sm font-medium">Entrepreneurship</span>
+                        <span class="px-4 py-2 bg-emerald-500/10 border border-emerald-500/20 text-emerald-300 rounded-lg text-sm font-medium">Business Models</span>
+                        <span class="px-4 py-2 bg-emerald-500/10 border border-emerald-500/20 text-emerald-300 rounded-lg text-sm font-medium">Market Strategy</span>
+                    </div>
+                </div>
+
+                <div class="bg-[#0a0f18] border border-white/10 p-8 rounded-2xl hover:border-amber-500/50 transition-all duration-500 hover:-translate-y-1 hover:shadow-[0_10px_30px_rgba(245,158,11,0.1)] relative overflow-hidden group">
+                    <div class="absolute top-0 right-0 w-32 h-32 bg-amber-500/10 rounded-full blur-3xl group-hover:bg-amber-500/20 transition-colors duration-500"></div>
+                    
+                    <span class="material-symbols-outlined text-4xl text-amber-400 mb-6 block group-hover:scale-110 transition-transform">record_voice_over</span>
+                    <h3 class="text-xl font-bold text-white mb-6 border-b border-white/10 pb-4">Leadership & Influence</h3>
+                    
+                    <div class="flex flex-wrap gap-3">
+                        <span class="px-4 py-2 bg-amber-500/10 border border-amber-500/20 text-amber-300 rounded-lg text-sm font-medium">Pitching</span>
+                        <span class="px-4 py-2 bg-amber-500/10 border border-amber-500/20 text-amber-300 rounded-lg text-sm font-medium">Public Speaking</span>
+                        <span class="px-4 py-2 bg-amber-500/10 border border-amber-500/20 text-amber-300 rounded-lg text-sm font-medium">Communication</span>
+                        <span class="px-4 py-2 bg-amber-500/10 border border-amber-500/20 text-amber-300 rounded-lg text-sm font-medium">Clarity Coaching</span>
+                        <span class="px-4 py-2 bg-amber-500/10 border border-amber-500/20 text-amber-300 rounded-lg text-sm font-medium">Team Dynamics</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+  <section id="experience" class="relative py-24 px-6 bg-slate-900/50 border-t border-white/5 z-10">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-display font-bold text-white mb-12"><span class="text-primary">06.</span> EXPERIENCE_LOGS</h2>
+            
+            <div class="flex flex-col gap-6">
+                
+                <div class="group relative bg-[#0a0f18] border border-white/10 rounded-2xl p-6 md:p-8 overflow-hidden hover:border-primary/40 transition-all duration-500 hover:shadow-[0_0_30px_rgba(19,91,236,0.1)] hover:-translate-y-1">
+                    <div class="absolute left-0 top-0 w-1 h-full bg-slate-800 group-hover:bg-primary transition-colors duration-500 shadow-[0_0_10px_rgba(19,91,236,0.8)]"></div>
+                    
+                    <div class="md:flex justify-between items-start gap-8">
+                        <div class="flex-1">
+                            <div class="flex items-center gap-3 mb-3">
+                                <span class="px-2 py-1 bg-primary/10 text-primary text-[10px] font-mono font-bold rounded uppercase tracking-widest border border-primary/20">Active Directive</span>
+                                <span class="text-xs font-mono text-slate-500">ID: PM-CEAP-01</span>
+                            </div>
+                            <h3 class="text-2xl font-bold text-white mb-1 group-hover:text-primary transition-colors">Product Manager (CEAP)</h3>
+                            <div class="text-sm font-mono text-slate-400 mb-4">Cybernovr • Cybersecurity Education</div>
+                            <p class="text-slate-400 text-sm leading-relaxed">
+                                Managing the product lifecycle for the Cybersecurity Education and Awareness Program (CEAP). Designing curriculum pathways, coordinating technical resources, and ensuring the delivery of high-impact training for aspiring security analysts.
+                            </p>
+                        </div>
+                        <div class="hidden md:block text-right">
+                            <span class="material-symbols-outlined text-4xl text-slate-700 group-hover:text-primary/50 transition-colors duration-500">account_tree</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group relative bg-[#0a0f18] border border-white/10 rounded-2xl p-6 md:p-8 overflow-hidden hover:border-neon-cyan/40 transition-all duration-500 hover:shadow-[0_0_30px_rgba(0,242,255,0.1)] hover:-translate-y-1">
+                    <div class="absolute left-0 top-0 w-1 h-full bg-slate-800 group-hover:bg-neon-cyan transition-colors duration-500 shadow-[0_0_10px_rgba(0,242,255,0.8)]"></div>
+                    
+                    <div class="md:flex justify-between items-start gap-8">
+                        <div class="flex-1">
+                            <div class="flex items-center gap-3 mb-3">
+                                <span class="px-2 py-1 bg-slate-800 text-slate-300 text-[10px] font-mono font-bold rounded uppercase tracking-widest border border-white/10">Archived Record</span>
+                                <span class="text-xs font-mono text-slate-500">ID: SMM-CYB-02</span>
+                            </div>
+                            <h3 class="text-2xl font-bold text-white mb-1 group-hover:text-neon-cyan transition-colors">Social Media Manager</h3>
+                            <div class="text-sm font-mono text-slate-400 mb-4">Cybernovr</div>
+                            <p class="text-slate-400 text-sm leading-relaxed">
+                                Led community engagement, content creation, and digital brand strategy. Fostered an active, growing tech community by translating complex cybersecurity concepts into accessible, engaging digital content.
+                            </p>
+                        </div>
+                        <div class="hidden md:block text-right">
+                            <span class="material-symbols-outlined text-4xl text-slate-700 group-hover:text-neon-cyan/50 transition-colors duration-500">campaign</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group relative bg-[#0a0f18] border border-white/10 rounded-2xl p-6 md:p-8 overflow-hidden hover:border-purple-500/40 transition-all duration-500 hover:shadow-[0_0_30px_rgba(168,85,247,0.1)] hover:-translate-y-1">
+                    <div class="absolute left-0 top-0 w-1 h-full bg-slate-800 group-hover:bg-purple-500 transition-colors duration-500 shadow-[0_0_10px_rgba(168,85,247,0.8)]"></div>
+                    
+                    <div class="md:flex justify-between items-start gap-8">
+                        <div class="flex-1">
+                            <div class="flex items-center gap-3 mb-3">
+                                <span class="px-2 py-1 bg-slate-800 text-slate-300 text-[10px] font-mono font-bold rounded uppercase tracking-widest border border-white/10">Archived Record</span>
+                                <span class="text-xs font-mono text-slate-500">ID: ENG-JOV-03</span>
+                            </div>
+                            <h3 class="text-2xl font-bold text-white mb-1 group-hover:text-purple-400 transition-colors">Design Engineering Intern</h3>
+                            <div class="text-sm font-mono text-slate-400 mb-4">JOVID Engineering Solutions</div>
+                            <p class="text-slate-400 text-sm leading-relaxed">
+                                Gained rigorous hands-on experience in industrial design engineering. Shadowed senior engineers, engaged in mechanical drafting, and contributed to physical system design and prototyping workflows.
+                            </p>
+                        </div>
+                        <div class="hidden md:block text-right">
+                            <span class="material-symbols-outlined text-4xl text-slate-700 group-hover:text-purple-500/50 transition-colors duration-500">precision_manufacturing</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+  <section id="ventures" class="relative py-24 px-6 border-t border-white/5 z-10">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-display font-bold text-white mb-12"><span class="text-neon-cyan">07.</span> VENTURE_PROJECTS</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                
+                <div class="bg-slate-900 border border-white/10 p-8 rounded-2xl hover:border-emerald-500/50 transition-all duration-500 hover:-translate-y-1 hover:shadow-[0_10px_30px_rgba(16,185,129,0.1)] flex flex-col h-full group">
+                    <span class="material-symbols-outlined text-4xl text-emerald-400 mb-6 group-hover:scale-110 transition-transform">eco</span>
+                    <h3 class="text-2xl font-bold text-white mb-3 group-hover:text-emerald-400 transition-colors">AgriSense</h3>
+                    <p class="text-sm text-slate-400 leading-relaxed mb-6 flex-grow">
+                        An AI-powered smart farming solution combating harvest loss for African smallholder farmers. Utilizes solar-powered IoT sensors for real-time soil/weather data, paired with an AI engine for precise irrigation scheduling and a digital marketplace connecting farmers directly to buyers.
+                    </p>
+                    <div class="flex flex-wrap gap-2 mb-8">
+                        <span class="px-2 py-1 bg-white/5 border border-white/10 rounded text-[10px] font-mono text-emerald-300">IoT Sensors</span>
+                        <span class="px-2 py-1 bg-white/5 border border-white/10 rounded text-[10px] font-mono text-emerald-300">AI Engine</span>
+                        <span class="px-2 py-1 bg-white/5 border border-white/10 rounded text-[10px] font-mono text-emerald-300">AgTech</span>
+                    </div>
+                    <a href="#" target="_blank" class="inline-flex items-center gap-2 text-xs font-mono font-bold text-slate-300 hover:text-emerald-400 transition-colors mt-auto border-t border-white/10 pt-4 w-fit">
+                        <span class="material-symbols-outlined text-sm">rocket_launch</span>
+                        Launch System
+                    </a>
+                </div>
+
+                <div class="bg-slate-900 border border-white/10 p-8 rounded-2xl hover:border-purple-500/50 transition-all duration-500 hover:-translate-y-1 hover:shadow-[0_10px_30px_rgba(168,85,247,0.1)] flex flex-col h-full group">
+                    <span class="material-symbols-outlined text-4xl text-purple-400 mb-6 group-hover:scale-110 transition-transform">storefront</span>
+                    <h3 class="text-2xl font-bold text-white mb-3 group-hover:text-purple-400 transition-colors">Arty Art</h3>
+                    <p class="text-sm text-slate-400 leading-relaxed mb-6 flex-grow">
+                        A managed social marketplace bridging the trust gap between Nigerian artisans and global buyers. Acts as a "Digital Village Square" featuring a social-first discovery feed, secured by an engineered ecosystem of escrow payments and quality-control logistics.
+                    </p>
+                    <div class="flex flex-wrap gap-2 mb-8">
+                        <span class="px-2 py-1 bg-white/5 border border-white/10 rounded text-[10px] font-mono text-purple-300">E-Commerce</span>
+                        <span class="px-2 py-1 bg-white/5 border border-white/10 rounded text-[10px] font-mono text-purple-300">Escrow API</span>
+                        <span class="px-2 py-1 bg-white/5 border border-white/10 rounded text-[10px] font-mono text-purple-300">Social UI</span>
+                    </div>
+                    <a href="#" target="_blank" class="inline-flex items-center gap-2 text-xs font-mono font-bold text-slate-300 hover:text-purple-400 transition-colors mt-auto border-t border-white/10 pt-4 w-fit">
+                        <span class="material-symbols-outlined text-sm">rocket_launch</span>
+                        Launch System
+                    </a>
+                </div>
+
+                <div class="bg-slate-900 border border-white/10 p-8 rounded-2xl hover:border-primary/50 transition-all duration-500 hover:-translate-y-1 hover:shadow-[0_10px_30px_rgba(19,91,236,0.1)] flex flex-col h-full group">
+                    <span class="material-symbols-outlined text-4xl text-primary mb-6 group-hover:scale-110 transition-transform">track_changes</span>
+                    <h3 class="text-2xl font-bold text-white mb-3 group-hover:text-primary transition-colors">MyClarityCoach</h3>
+                    <p class="text-sm text-slate-400 leading-relaxed mb-6 flex-grow">
+                        An AI-powered productivity platform acting as a digital accountability partner. Moving beyond simple to-do lists, it integrates habit tracking, Pomodoro focus timers, and AI behavior analysis to become a personal operating system for human productivity.
+                    </p>
+                    <div class="flex flex-wrap gap-2 mb-8">
+                        <span class="px-2 py-1 bg-white/5 border border-white/10 rounded text-[10px] font-mono text-blue-300">React</span>
+                        <span class="px-2 py-1 bg-white/5 border border-white/10 rounded text-[10px] font-mono text-blue-300">AI Coaching</span>
+                        <span class="px-2 py-1 bg-white/5 border border-white/10 rounded text-[10px] font-mono text-blue-300">Data Analytics</span>
+                    </div>
+                    <a href="#" target="_blank" class="inline-flex items-center gap-2 text-xs font-mono font-bold text-slate-300 hover:text-primary transition-colors mt-auto border-t border-white/10 pt-4 w-fit">
+                        <span class="material-symbols-outlined text-sm">rocket_launch</span>
+                        Launch System
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+  <section class="relative py-24 px-6 bg-[#0a0f18] border-t border-white/5 z-10 overflow-hidden">
+        
+        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[300px] bg-primary/5 rounded-[100%] blur-[100px] pointer-events-none"></div>
+
+        <div class="max-w-6xl mx-auto text-center relative z-10">
+            <h2 class="text-3xl md:text-4xl font-display font-bold text-white mb-12"><span class="text-slate-500">08.</span> FELLOWSHIP_RECORDS</h2>
+            
+            <div class="flex flex-wrap justify-center gap-4 md:gap-6">
+                
+                <span class="px-6 py-3 md:px-8 md:py-4 border border-white/10 rounded-full bg-slate-900/80 backdrop-blur-sm text-sm md:text-base font-bold text-white hover:border-primary/50 hover:bg-primary/10 hover:-translate-y-1 hover:shadow-[0_0_20px_rgba(19,91,236,0.3)] transition-all duration-300 cursor-default flex items-center gap-3">
+                    <span class="material-symbols-outlined text-primary text-xl">workspace_premium</span>
+                    Be-MINT Fellow
+                </span>
+                
+                <span class="px-6 py-3 md:px-8 md:py-4 border border-white/10 rounded-full bg-slate-900/80 backdrop-blur-sm text-sm md:text-base font-bold text-white hover:border-amber-500/50 hover:bg-amber-500/10 hover:-translate-y-1 hover:shadow-[0_0_20px_rgba(245,158,11,0.3)] transition-all duration-300 cursor-default flex items-center gap-3">
+                    <span class="material-symbols-outlined text-amber-500 text-xl">school</span>
+                    Debra Palace Initiative
+                </span>
+                
+                <span class="px-6 py-3 md:px-8 md:py-4 border border-white/10 rounded-full bg-slate-900/80 backdrop-blur-sm text-sm md:text-base font-bold text-white hover:border-emerald-500/50 hover:bg-emerald-500/10 hover:-translate-y-1 hover:shadow-[0_0_20px_rgba(16,185,129,0.3)] transition-all duration-300 cursor-default flex items-center gap-3">
+                    <span class="material-symbols-outlined text-emerald-500 text-xl">public</span>
+                    YELA Network
+                </span>
+                
+                <span class="px-6 py-3 md:px-8 md:py-4 border border-white/10 rounded-full bg-slate-900/80 backdrop-blur-sm text-sm md:text-base font-bold text-white hover:border-neon-cyan/50 hover:bg-neon-cyan/10 hover:-translate-y-1 hover:shadow-[0_0_20px_rgba(0,242,255,0.3)] transition-all duration-300 cursor-default flex items-center gap-3">
+                    <span class="material-symbols-outlined text-neon-cyan text-xl">security</span>
+                    CEAP Ambassador
+                </span>
+
+                <span class="px-6 py-3 md:px-8 md:py-4 border border-white/10 rounded-full bg-slate-900/80 backdrop-blur-sm text-sm md:text-base font-bold text-white hover:border-blue-400/50 hover:bg-blue-400/10 hover:-translate-y-1 hover:shadow-[0_0_20px_rgba(96,165,250,0.3)] transition-all duration-300 cursor-default flex items-center gap-3">
+                    <span class="material-symbols-outlined text-blue-400 text-xl">account_balance_wallet</span>
+                    Cowrywise Ambassador
+                </span>
+
+                <span class="px-6 py-3 md:px-8 md:py-4 border border-white/10 rounded-full bg-slate-900/80 backdrop-blur-sm text-sm md:text-base font-bold text-white hover:border-purple-500/50 hover:bg-purple-500/10 hover:-translate-y-1 hover:shadow-[0_0_20px_rgba(168,85,247,0.3)] transition-all duration-300 cursor-default flex items-center gap-3">
+                    <span class="material-symbols-outlined text-purple-400 text-xl">diversity_3</span>
+                    HAAYAH Cohort
+                </span>
+
+                <a href="https://www.life-global.org/en/badges/27f481e1-ae87-4097-b5a2-9c7d98fda7c3" target="_blank" class="px-6 py-3 md:px-8 md:py-4 border border-white/10 rounded-full bg-slate-900/80 backdrop-blur-sm text-sm md:text-base font-bold text-white hover:border-cyan-400/50 hover:bg-cyan-400/10 hover:-translate-y-1 hover:shadow-[0_0_20px_rgba(34,211,238,0.3)] transition-all duration-300 flex items-center gap-3">
+                    <span class="material-symbols-outlined text-cyan-400 text-xl">badge</span>
+                    HP LIFE Ambassador
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="metrics" class="relative py-24 px-6 border-t border-white/5 z-10">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-display font-bold text-white mb-12"><span class="text-emerald-500">09.</span> ACHIEVEMENT_METRICS</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+                
+                <div class="group bg-gradient-to-br from-[#0a0f18] to-emerald-900/20 border border-emerald-500/30 p-8 rounded-2xl flex flex-col sm:flex-row items-start sm:items-center gap-6 hover:shadow-[0_0_40px_rgba(16,185,129,0.2)] transition-all duration-500 hover:-translate-y-1 relative overflow-hidden">
+                    <div class="absolute top-0 -left-[100%] w-1/2 h-full bg-gradient-to-r from-transparent via-white/5 to-transparent skew-x-12 group-hover:left-[200%] transition-all duration-1000"></div>
+                    
+                    <div class="w-20 h-20 rounded-full bg-emerald-500/10 flex items-center justify-center border border-emerald-500/30 flex-shrink-0 group-hover:scale-110 transition-transform duration-500">
+                        <span class="material-symbols-outlined text-5xl text-emerald-400">emoji_events</span>
+                    </div>
+                    <div>
+                        <div class="inline-flex items-center gap-2 px-3 py-1 bg-emerald-500/10 border border-emerald-500/20 rounded-full text-xs text-emerald-400 font-mono font-bold mb-3">
+                            <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                            1ST PLACE CHAMPION
+                        </div>
+                        <h3 class="text-2xl font-bold text-white mb-2">Wema Bank Hackaholics 6.0</h3>
+                        <p class="text-sm text-slate-400 leading-relaxed">
+                            Joined Team VOC AI to build and pitch a winning AI-driven social impact solution under intense 72-hour pressure.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="group bg-gradient-to-br from-[#0a0f18] to-amber-900/20 border border-amber-500/30 p-8 rounded-2xl flex flex-col sm:flex-row items-start sm:items-center gap-6 hover:shadow-[0_0_40px_rgba(245,158,11,0.2)] transition-all duration-500 hover:-translate-y-1 relative overflow-hidden">
+                    <div class="absolute top-0 -left-[100%] w-1/2 h-full bg-gradient-to-r from-transparent via-white/5 to-transparent skew-x-12 group-hover:left-[200%] transition-all duration-1000"></div>
+                    
+                    <div class="w-20 h-20 rounded-full bg-amber-500/10 flex items-center justify-center border border-amber-500/30 flex-shrink-0 group-hover:scale-110 transition-transform duration-500">
+                        <span class="material-symbols-outlined text-5xl text-amber-400">workspace_premium</span>
+                    </div>
+                    <div>
+                        <div class="inline-flex items-center gap-2 px-3 py-1 bg-amber-500/10 border border-amber-500/20 rounded-full text-xs text-amber-400 font-mono font-bold mb-3">
+                            <span class="w-2 h-2 rounded-full bg-amber-400 animate-pulse"></span>
+                            MERIT SCHOLARSHIP
+                        </div>
+                        <h3 class="text-2xl font-bold text-white mb-2">Debra Palace Initiative (DPI)</h3>
+                        <p class="text-sm text-slate-400 leading-relaxed">
+                            Selected as a DPI Scholar in recognition of demonstrated technical excellence, leadership potential, and community impact.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div class="bg-[#0a0f18] border border-white/10 rounded-xl p-6 text-center hover:border-primary/30 transition-colors">
+                    <div class="text-3xl font-display font-bold text-white mb-1">3+</div>
+                    <div class="text-[10px] font-mono text-primary uppercase tracking-widest">Ventures Launched</div>
+                </div>
+                <div class="bg-[#0a0f18] border border-white/10 rounded-xl p-6 text-center hover:border-emerald-400/30 transition-colors">
+                    <div class="text-3xl font-display font-bold text-white mb-1">50+</div>
+                    <div class="text-[10px] font-mono text-emerald-400 uppercase tracking-widest">People Coached</div>
+                </div>
+                <div class="bg-[#0a0f18] border border-white/10 rounded-xl p-6 text-center hover:border-purple-400/30 transition-colors">
+                    <div class="text-3xl font-display font-bold text-white mb-1">8</div>
+                    <div class="text-[10px] font-mono text-purple-400 uppercase tracking-widest">Core Tech Stack</div>
+                </div>
+                <div class="bg-[#0a0f18] border border-white/10 rounded-xl p-6 text-center hover:border-amber-400/30 transition-colors">
+                    <div class="text-3xl font-display font-bold text-white mb-1">6+</div>
+                    <div class="text-[10px] font-mono text-amber-400 uppercase tracking-widest">Fellowship and Cohort</div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+   <section id="humanitarian" class="relative py-24 px-6 bg-slate-900/50 border-t border-white/5 z-10">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-display font-bold text-white mb-12"><span class="text-red-500">10.</span> HUMANITARIAN_CORPS</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                
+                <div class="bg-[#0a0f18] border border-white/10 rounded-2xl overflow-hidden hover:border-blue-500/50 transition-all duration-500 hover:-translate-y-1 hover:shadow-[0_10px_30px_rgba(59,130,246,0.15)] group flex flex-col h-full">
+                    <div class="relative h-48 overflow-hidden bg-slate-800">
+                        <span class="text-slate-500 font-mono text-sm absolute inset-0 flex items-center justify-center group-hover:opacity-0 transition-opacity">/* Rotary Image */</span>
+                        <img src="interact.jpeg" alt="Rotary Club Volunteering" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700"/>
+                        <div class="absolute top-4 right-4 bg-blue-500/90 backdrop-blur-md px-3 py-1 rounded-full text-[10px] font-bold text-white uppercase tracking-widest shadow-lg">
+                            Interact Club
+                        </div>
+                    </div>
+                    <div class="p-6 md:p-8 flex flex-col flex-grow relative z-20 -mt-6">
+                        <div class="w-12 h-12 bg-blue-500/10 rounded-full flex items-center justify-center border border-blue-500/20 mb-4 backdrop-blur-md">
+                            <span class="material-symbols-outlined text-blue-400">public</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-3 group-hover:text-blue-400 transition-colors">Rotary International</h3>
+                        <p class="text-sm text-slate-400 leading-relaxed mb-6 flex-grow">
+                            Led and supported grassroots community development programs. Focused extensively on youth skill acquisition, fostering entrepreneurship, and driving sustainable growth initiatives within the community.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mt-auto">
+                            <span class="px-2 py-1 bg-white/5 border border-white/10 rounded text-[10px] font-mono text-blue-300">Community Dev</span>
+                            <span class="px-2 py-1 bg-white/5 border border-white/10 rounded text-[10px] font-mono text-blue-300">Leadership</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-[#0a0f18] border border-white/10 rounded-2xl overflow-hidden hover:border-red-500/50 transition-all duration-500 hover:-translate-y-1 hover:shadow-[0_10px_30px_rgba(239,68,68,0.15)] group flex flex-col h-full">
+                    <div class="relative h-48 overflow-hidden bg-slate-800">
+                        <span class="text-slate-500 font-mono text-sm absolute inset-0 flex items-center justify-center group-hover:opacity-0 transition-opacity">/* Red Cross Image */</span>
+                        <img src="red.jpg" alt="Nigeria Red Cross Society" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700"/>
+
+                        <div class="absolute top-4 right-4 bg-red-500/90 backdrop-blur-md px-3 py-1 rounded-full text-[10px] font-bold text-white uppercase tracking-widest shadow-lg">
+                            Frontline Response
+                        </div>
+                    </div>
+                    <div class="p-6 md:p-8 flex flex-col flex-grow relative z-20 -mt-6">
+                        <div class="w-12 h-12 bg-red-500/10 rounded-full flex items-center justify-center border border-red-500/20 mb-4 backdrop-blur-md">
+                            <span class="material-symbols-outlined text-red-400">medical_services</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-3 group-hover:text-red-400 transition-colors">Nigeria Red Cross</h3>
+                        <p class="text-sm text-slate-400 leading-relaxed mb-6 flex-grow">
+                            Served on the frontlines coordinating disaster relief operations and providing vital medical support. Actively organized and managed community blood donation drives to ensure emergency readiness.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mt-auto">
+                            <span class="px-2 py-1 bg-white/5 border border-white/10 rounded text-[10px] font-mono text-red-300">Disaster Relief</span>
+                            <span class="px-2 py-1 bg-white/5 border border-white/10 rounded text-[10px] font-mono text-red-300">Emergency Med</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-[#0a0f18] border border-white/10 rounded-2xl overflow-hidden hover:border-rose-500/50 transition-all duration-500 hover:-translate-y-1 hover:shadow-[0_10px_30px_rgba(244,63,94,0.15)] group flex flex-col h-full">
+                    <div class="relative h-48 overflow-hidden bg-slate-800">
+                        <span class="text-slate-500 font-mono text-sm absolute inset-0 flex items-center justify-center group-hover:opacity-0 transition-opacity">/* WARIF Image */</span>
+                        <img src="warif.JPG" alt="WARIF Men as Allies" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700"/>
+                        <div class="absolute top-4 right-4 bg-rose-500/90 backdrop-blur-md px-3 py-1 rounded-full text-[10px] font-bold text-white uppercase tracking-widest shadow-lg">
+                            Advocacy
+                        </div>
+                    </div>
+                    <div class="p-6 md:p-8 flex flex-col flex-grow relative z-20 -mt-6">
+                        <div class="w-12 h-12 bg-rose-500/10 rounded-full flex items-center justify-center border border-rose-500/20 mb-4 backdrop-blur-md">
+                            <span class="material-symbols-outlined text-rose-400">volunteer_activism</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-3 group-hover:text-rose-400 transition-colors">WARIF</h3>
+                        <p class="text-sm text-slate-400 leading-relaxed mb-6 flex-grow">
+                            Volunteered with the "Men as Allies" community to actively advocate against gender-based violence. Participated in critical sessions on positive masculinity and marched in the "No Tolerance" campaign.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mt-auto">
+                            <span class="px-2 py-1 bg-white/5 border border-white/10 rounded text-[10px] font-mono text-rose-300">Men as Allies</span>
+                            <span class="px-2 py-1 bg-white/5 border border-white/10 rounded text-[10px] font-mono text-rose-300">Social Justice</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <style>
+        .cert-scroll::-webkit-scrollbar { display: none; }
+        .cert-scroll { -ms-overflow-style: none; scrollbar-width: none; scroll-behavior: smooth; }
+    </style>
+ <section id="certifications" class="relative py-24 px-6 border-t border-white/5 z-10">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-display font-bold text-white mb-12"><span class="text-primary">11.</span> CERTIFICATION_NEXUS</h2>
+            
+           <div class="grid grid-rows-1 md:grid-rows-2 lg:grid-rows-3 grid-flow-col auto-cols-[85vw] sm:auto-cols-[260px] gap-6 overflow-x-auto cert-scroll pb-8 snap-x snap-mandatory">
+                
+                <a href="https://coursera.org/share/0ea8755ac28b9d31a46fd5d67a8e933a" target="_blank" class="block bg-[#0a0f18] border border-white/10 p-5 rounded-2xl hover:border-primary/50 transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_10px_30px_rgba(19,91,236,0.15)] group relative overflow-hidden flex flex-col h-full snap-start">
+                    <div class="aspect-[4/3] bg-slate-800 rounded-xl flex items-center justify-center mb-4 overflow-hidden relative">
+                        <span class="text-[10px] text-slate-500 font-mono z-10 group-hover:opacity-0 transition-opacity">/* Robotics Cert */</span>
+                        <img src="robotics.png" alt="Robotics Certificate" class="absolute inset-0 w-full h-full object-cover opacity-40 group-hover:opacity-100 transition-opacity duration-300"/>
+                    </div>
+                    <div class="flex items-center justify-between mb-2">
+                        <div class="text-[10px] font-mono text-primary uppercase tracking-widest px-2 py-0.5 bg-primary/10 rounded">Univ. of Leeds</div>
+                        <span class="material-symbols-outlined text-sm text-slate-500 group-hover:text-primary transition-colors">verified</span>
+                    </div>
+                    <div class="text-sm font-bold text-white group-hover:text-primary transition-colors leading-snug">
+                        How to Get Into Robotics
+                    </div>
+                    <p class="text-xs text-slate-400 mt-2 line-clamp-2 flex-grow">Explored foundational kinematics and autonomous systems, aligning perfectly with my Mechatronics degree.</p>
+                </a>
+
+                <a href="https://coursera.org/share/df717ad30ced61426d74e69a40130164" target="_blank" class="block bg-[#0a0f18] border border-white/10 p-5 rounded-2xl hover:border-primary/50 transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_10px_30px_rgba(19,91,236,0.15)] group relative overflow-hidden flex flex-col h-full snap-start">
+                    <div class="aspect-[4/3] bg-slate-800 rounded-xl flex items-center justify-center mb-4 overflow-hidden relative">
+                        <span class="text-[10px] text-slate-500 font-mono z-10 group-hover:opacity-0 transition-opacity">/* Excel Cert */</span>
+                        <img src="smart.png" alt="Excel Certificate" class="absolute inset-0 w-full h-full object-cover opacity-40 group-hover:opacity-100 transition-opacity duration-300"/>
+                    </div>
+                    <div class="flex items-center justify-between mb-2">
+                        <div class="text-[10px] font-mono text-primary uppercase tracking-widest px-2 py-0.5 bg-primary/10 rounded">Microsoft</div>
+                        <span class="material-symbols-outlined text-sm text-slate-500 group-hover:text-primary transition-colors">verified</span>
+                    </div>
+                    <div class="text-sm font-bold text-white group-hover:text-primary transition-colors leading-snug">
+                        Work Smarter with Excel
+                    </div>
+                    <p class="text-xs text-slate-400 mt-2 line-clamp-2 flex-grow">Engineered complex data workflows and analytical models for robust, data-driven decision making.</p>
+                </a>
+
+                <a href="https://coursera.org/share/798c7f113258e7b62d0ab9bdec493223" target="_blank" class="block bg-[#0a0f18] border border-white/10 p-5 rounded-2xl hover:border-primary/50 transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_10px_30px_rgba(19,91,236,0.15)] group relative overflow-hidden flex flex-col h-full snap-start">
+                    <div class="aspect-[4/3] bg-slate-800 rounded-xl flex items-center justify-center mb-4 overflow-hidden relative">
+                        <span class="text-[10px] text-slate-500 font-mono z-10 group-hover:opacity-0 transition-opacity">/* Sheets Dashboards */</span>
+                        <img src="more.png" alt="Dashboard Certificate" class="absolute inset-0 w-full h-full object-cover opacity-40 group-hover:opacity-100 transition-opacity duration-300"/>
+                    </div>
+                    <div class="flex items-center justify-between mb-2">
+                        <div class="text-[10px] font-mono text-primary uppercase tracking-widest px-2 py-0.5 bg-primary/10 rounded">Google Cloud</div>
+                        <span class="material-symbols-outlined text-sm text-slate-500 group-hover:text-primary transition-colors">verified</span>
+                    </div>
+                    <div class="text-sm font-bold text-white group-hover:text-primary transition-colors leading-snug">
+                        Doing More With Sheet
+                    </div>
+                    <p class="text-xs text-slate-400 mt-2 line-clamp-2 flex-grow">Leveraged cloud-based spreadsheet logic for scalable, collaborative data tracking and architecture.</p>
+                </a>
+
+                <a href="https://coursera.org/share/796006f66b834ad228a0350143b0bcb6" target="_blank" class="block bg-[#0a0f18] border border-white/10 p-5 rounded-2xl hover:border-primary/50 transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_10px_30px_rgba(19,91,236,0.15)] group relative overflow-hidden flex flex-col h-full snap-start">
+                    <div class="aspect-[4/3] bg-slate-800 rounded-xl flex items-center justify-center mb-4 overflow-hidden relative">
+                        <span class="text-[10px] text-slate-500 font-mono z-10 group-hover:opacity-0 transition-opacity">/* Sheets Advanced */</span>
+                        <img src="chart.png" alt="Google Sheets Certificate" class="absolute inset-0 w-full h-full object-cover opacity-40 group-hover:opacity-100 transition-opacity duration-300"/>
+                    </div>
+                    <div class="flex items-center justify-between mb-2">
+                        <div class="text-[10px] font-mono text-primary uppercase tracking-widest px-2 py-0.5 bg-primary/10 rounded">Google Cloud</div>
+                        <span class="material-symbols-outlined text-sm text-slate-500 group-hover:text-primary transition-colors">verified</span>
+                    </div>
+                    <div class="text-sm font-bold text-white group-hover:text-primary transition-colors leading-snug">
+                        Charts and Dashboards
+                    </div>
+                    <p class="text-xs text-slate-400 mt-2 line-clamp-2 flex-grow">Mastered dynamic data visualization, translating raw metrics into actionable business intelligence.</p>
+                </a>
+
+                <a href="https://coursera.org/share/58a191b74a157cf72018b47493371c43" target="_blank" class="block bg-[#0a0f18] border border-white/10 p-5 rounded-2xl hover:border-primary/50 transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_10px_30px_rgba(19,91,236,0.15)] group relative overflow-hidden flex flex-col h-full snap-start">
+                    <div class="aspect-[4/3] bg-slate-800 rounded-xl flex items-center justify-center mb-4 overflow-hidden relative">
+                        <span class="text-[10px] text-slate-500 font-mono z-10 group-hover:opacity-0 transition-opacity">/* Sheets Basics */</span>
+                        <img src="sheet.png" alt="Google Sheets Certificate" class="absolute inset-0 w-full h-full object-cover opacity-40 group-hover:opacity-100 transition-opacity duration-300"/>
+                    </div>
+                    <div class="flex items-center justify-between mb-2">
+                        <div class="text-[10px] font-mono text-primary uppercase tracking-widest px-2 py-0.5 bg-primary/10 rounded">Google Cloud</div>
+                        <span class="material-symbols-outlined text-sm text-slate-500 group-hover:text-primary transition-colors">verified</span>
+                    </div>
+                    <div class="text-sm font-bold text-white group-hover:text-primary transition-colors leading-snug">
+                        Google Sheets Foundation
+                    </div>
+                    <p class="text-xs text-slate-400 mt-2 line-clamp-2 flex-grow">Established a firm grounding in cloud data entry, formula creation, and structured data hygiene.</p>
+                </a>
+
+                <a href="https://www.life-global.org/certificate/0d4e6602-6870-43fb-8726-86877de42c8a" target="_blank" class="block bg-[#0a0f18] border border-white/10 p-5 rounded-2xl hover:border-emerald-500/50 transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_10px_30px_rgba(16,185,129,0.15)] group relative overflow-hidden flex flex-col h-full snap-start">
+                    <div class="aspect-[4/3] bg-slate-800 rounded-xl flex items-center justify-center mb-4 overflow-hidden relative">
+                        <span class="text-[10px] text-slate-500 font-mono z-10 group-hover:opacity-0 transition-opacity">/* Social Ent. */</span>
+                        <img src="mindset.png" alt="Social Entrepreneurship" class="absolute inset-0 w-full h-full object-cover opacity-40 group-hover:opacity-100 transition-opacity duration-300"/>
+                    </div>
+                    <div class="flex items-center justify-between mb-2">
+                        <div class="text-[10px] font-mono text-emerald-400 uppercase tracking-widest px-2 py-0.5 bg-emerald-500/10 rounded">HP LIFE</div>
+                        <span class="material-symbols-outlined text-sm text-slate-500 group-hover:text-emerald-400 transition-colors">verified</span>
+                    </div>
+                    <div class="text-sm font-bold text-white group-hover:text-emerald-400 transition-colors leading-snug">
+                        Success Mindset
+                    </div>
+                    <p class="text-xs text-slate-400 mt-2 line-clamp-2 flex-grow">Cultivated the resilience, strategic adaptability, and focus required for high-stakes innovation.</p>
+                </a>
+
+                <a href="https://www.life-global.org/certificate/2ebee27d-17a5-4fc3-98eb-afd28430fd4f" target="_blank" class="block bg-[#0a0f18] border border-white/10 p-5 rounded-2xl hover:border-emerald-500/50 transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_10px_30px_rgba(16,185,129,0.15)] group relative overflow-hidden flex flex-col h-full snap-start">
+                    <div class="aspect-[4/3] bg-slate-800 rounded-xl flex items-center justify-center mb-4 overflow-hidden relative">
+                        <span class="text-[10px] text-slate-500 font-mono z-10 group-hover:opacity-0 transition-opacity">/* Circular Economy */</span>
+                        <img src="digital.png" alt="Circular Economy" class="absolute inset-0 w-full h-full object-cover opacity-40 group-hover:opacity-100 transition-opacity duration-300"/>
+                    </div>
+                    <div class="flex items-center justify-between mb-2">
+                        <div class="text-[10px] font-mono text-emerald-400 uppercase tracking-widest px-2 py-0.5 bg-emerald-500/10 rounded">HP LIFE</div>
+                        <span class="material-symbols-outlined text-sm text-slate-500 group-hover:text-emerald-400 transition-colors">verified</span>
+                    </div>
+                    <div class="text-sm font-bold text-white group-hover:text-emerald-400 transition-colors leading-snug">
+                        Intro To Digital Business Skills
+                    </div>
+                    <p class="text-xs text-slate-400 mt-2 line-clamp-2 flex-grow">Modernizing traditional workflows with digital toolsets to scale operations globally.</p>
+                </a>
+
+                <a href="https://www.life-global.org/certificate/816494bf-6663-4834-8ea3-eb4a95ea5a2c" target="_blank" class="block bg-[#0a0f18] border border-white/10 p-5 rounded-2xl hover:border-emerald-500/50 transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_10px_30px_rgba(16,185,129,0.15)] group relative overflow-hidden flex flex-col h-full snap-start">
+                    <div class="aspect-[4/3] bg-slate-800 rounded-xl flex items-center justify-center mb-4 overflow-hidden relative">
+                        <span class="text-[10px] text-slate-500 font-mono z-10 group-hover:opacity-0 transition-opacity">/* Small Business */</span>
+                        <img src="economy.png" alt="Small Business Certificate" class="absolute inset-0 w-full h-full object-cover opacity-40 group-hover:opacity-100 transition-opacity duration-300"/>
+                    </div>
+                    <div class="flex items-center justify-between mb-2">
+                        <div class="text-[10px] font-mono text-emerald-400 uppercase tracking-widest px-2 py-0.5 bg-emerald-500/10 rounded">HP LIFE</div>
+                        <span class="material-symbols-outlined text-sm text-slate-500 group-hover:text-emerald-400 transition-colors">verified</span>
+                    </div>
+                    <div class="text-sm font-bold text-white group-hover:text-emerald-400 transition-colors leading-snug">
+                        Circular Economy
+                    </div>
+                    <p class="text-xs text-slate-400 mt-2 line-clamp-2 flex-grow">Designing hardware and business lifecycles that minimize waste and maximize ecological efficiency.</p>
+                </a>
+
+                <a href="https://www.life-global.org/certificate/a6d46a04-ecd5-4ba2-b83f-2f3045642927" target="_blank" class="block bg-[#0a0f18] border border-white/10 p-5 rounded-2xl hover:border-emerald-500/50 transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_10px_30px_rgba(16,185,129,0.15)] group relative overflow-hidden flex flex-col h-full snap-start">
+                    <div class="aspect-[4/3] bg-slate-800 rounded-xl flex items-center justify-center mb-4 overflow-hidden relative">
+                        <span class="text-[10px] text-slate-500 font-mono z-10 group-hover:opacity-0 transition-opacity">/* Digital Skills */</span>
+                        <img src="social.png" alt="Digital Business Skills" class="absolute inset-0 w-full h-full object-cover opacity-40 group-hover:opacity-100 transition-opacity duration-300"/>
+                    </div>
+                    <div class="flex items-center justify-between mb-2">
+                        <div class="text-[10px] font-mono text-emerald-400 uppercase tracking-widest px-2 py-0.5 bg-emerald-500/10 rounded">HP LIFE</div>
+                        <span class="material-symbols-outlined text-sm text-slate-500 group-hover:text-emerald-400 transition-colors">verified</span>
+                    </div>
+                    <div class="text-sm font-bold text-white group-hover:text-emerald-400 transition-colors leading-snug">
+                        Social Entrepreneurship
+                    </div>
+                    <p class="text-xs text-slate-400 mt-2 line-clamp-2 flex-grow">Bridging the gap between impactful community solutions and sustainable, profitable business models.</p>
+                </a>
+
+                <a href="https://www.life-global.org/certificate/ac777ae5-7b1a-4648-9109-51d674cd9049" target="_blank" class="block bg-[#0a0f18] border border-white/10 p-5 rounded-2xl hover:border-emerald-500/50 transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_10px_30px_rgba(16,185,129,0.15)] group relative overflow-hidden flex flex-col h-full snap-start">
+                    <div class="aspect-[4/3] bg-slate-800 rounded-xl flex items-center justify-center mb-4 overflow-hidden relative">
+                        <span class="text-[10px] text-slate-500 font-mono z-10 group-hover:opacity-0 transition-opacity">/* Success Mindset */</span>
+                        <img src="business.png" alt="Success Mindset" class="absolute inset-0 w-full h-full object-cover opacity-40 group-hover:opacity-100 transition-opacity duration-300"/>
+                    </div>
+                    <div class="flex items-center justify-between mb-2">
+                        <div class="text-[10px] font-mono text-emerald-400 uppercase tracking-widest px-2 py-0.5 bg-emerald-500/10 rounded">HP LIFE</div>
+                        <span class="material-symbols-outlined text-sm text-slate-500 group-hover:text-emerald-400 transition-colors">verified</span>
+                    </div>
+                    <div class="text-sm font-bold text-white group-hover:text-emerald-400 transition-colors leading-snug">
+                        Starting a small Business
+                    </div>
+                    <p class="text-xs text-slate-400 mt-2 line-clamp-2 flex-grow">Grasped the core mechanics of launching, structuring, and scaling ventures from ideation to market.</p>
+                </a>
+
+                <a href="https://matlabacademy.mathworks.com/progress/share/certificate.html?id=6cbfdc52-b7e1-4749-aceb-125d3c4f3e49&" target="_blank" class="block bg-[#0a0f18] border border-white/10 p-5 rounded-2xl hover:border-orange-500/50 transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_10px_30px_rgba(249,115,22,0.15)] group relative overflow-hidden flex flex-col h-full snap-start">
+                    <div class="aspect-[4/3] bg-slate-800 rounded-xl flex items-center justify-center mb-4 overflow-hidden relative">
+                        <span class="text-[10px] text-slate-500 font-mono z-10 group-hover:opacity-0 transition-opacity">/* MATLAB */</span>
+                        <img src="mathswork.png" alt="MATLAB Certificate" class="absolute inset-0 w-full h-full object-cover opacity-40 group-hover:opacity-100 transition-opacity duration-300"/>
+                    </div>
+                    <div class="flex items-center justify-between mb-2">
+                        <div class="text-[10px] font-mono text-orange-400 uppercase tracking-widest px-2 py-0.5 bg-orange-500/10 rounded">MathWorks</div>
+                        <span class="material-symbols-outlined text-sm text-slate-500 group-hover:text-orange-400 transition-colors">verified</span>
+                    </div>
+                    <div class="text-sm font-bold text-white group-hover:text-orange-400 transition-colors leading-snug">
+                        MATLAB Onramp
+                    </div>
+                    <p class="text-xs text-slate-400 mt-2 line-clamp-2 flex-grow">Acquired syntax and workflow logic for complex mathematical computing and engineering data analysis.</p>
+                </a>
+
+                <a href="#" class="block bg-[#0a0f18] border border-white/10 p-5 rounded-2xl hover:border-neon-cyan/50 transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_10px_30px_rgba(0,242,255,0.15)] group relative overflow-hidden flex flex-col h-full snap-start">
+                    <div class="aspect-[4/3] bg-slate-800 rounded-xl flex items-center justify-center mb-4 overflow-hidden relative">
+                        <span class="text-[10px] text-slate-500 font-mono z-10 group-hover:opacity-0 transition-opacity">/* CEAP Image */</span>
+                        <img src="ceap.png" alt="CEAP Certificate" class="absolute inset-0 w-full h-full object-cover opacity-40 group-hover:opacity-100 transition-opacity duration-300"/>
+                    </div>
+                    <div class="flex items-center justify-between mb-2">
+                        <div class="text-[10px] font-mono text-neon-cyan uppercase tracking-widest px-2 py-0.5 bg-neon-cyan/10 rounded">Cybernovr</div>
+                        <span class="material-symbols-outlined text-sm text-slate-500 group-hover:text-neon-cyan transition-colors">verified</span>
+                    </div>
+                    <div class="text-sm font-bold text-white group-hover:text-neon-cyan transition-colors leading-snug">
+                        Cybersecurity Education (CEAP)
+                    </div>
+                    <p class="text-xs text-slate-400 mt-2 line-clamp-2 flex-grow">Mastered core network defense, threat mitigation, and digital safety to protect modern tech ecosystems.</p>
+                </a>
+
+                <a href="#" class="block bg-[#0a0f18] border border-white/10 p-5 rounded-2xl hover:border-rose-400/50 transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_10px_30px_rgba(244,63,94,0.15)] group relative overflow-hidden flex flex-col h-full snap-start">
+                    <div class="aspect-[4/3] bg-slate-800 rounded-xl flex items-center justify-center mb-4 overflow-hidden relative">
+                        <span class="text-[10px] text-slate-500 font-mono z-10 group-hover:opacity-0 transition-opacity">/* Kings Club Image */</span>
+                        <img src="kings.jpg" alt="Kings Club Certificate" class="absolute inset-0 w-full h-full object-cover opacity-40 group-hover:opacity-100 transition-opacity duration-300"/>
+                    </div>
+                    <div class="flex items-center justify-between mb-2">
+                        <div class="text-[10px] font-mono text-rose-400 uppercase tracking-widest px-2 py-0.5 bg-rose-400/10 rounded">Lagos DSVA</div>
+                        <span class="material-symbols-outlined text-sm text-slate-500 group-hover:text-rose-400 transition-colors">verified</span>
+                    </div>
+                    <div class="text-sm font-bold text-white group-hover:text-rose-400 transition-colors leading-snug">
+                        Promoting Positive Masculinity
+                    </div>
+                    <p class="text-xs text-slate-400 mt-2 line-clamp-2 flex-grow">Completed an eight-week intensive training program focused on advocacy, gender-based violence prevention, and positive community impact.</p>
+                </a>
+
+                <a href="#" class="block bg-[#0a0f18] border border-white/10 p-5 rounded-2xl hover:border-emerald-400/50 transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_10px_30px_rgba(52,211,153,0.15)] group relative overflow-hidden flex flex-col h-full snap-start">
+                    <div class="aspect-[4/3] bg-slate-800 rounded-xl flex items-center justify-center mb-4 overflow-hidden relative">
+                        <span class="text-[10px] text-slate-500 font-mono z-10 group-hover:opacity-0 transition-opacity">/* YELA Image */</span>
+                        <img src="yela.jpg" alt="YELA Certificate" class="absolute inset-0 w-full h-full object-cover opacity-40 group-hover:opacity-100 transition-opacity duration-300"/>
+                    </div>
+                    <div class="flex items-center justify-between mb-2">
+                        <div class="text-[10px] font-mono text-emerald-400 uppercase tracking-widest px-2 py-0.5 bg-emerald-400/10 rounded">Learning 4 Living</div>
+                        <span class="material-symbols-outlined text-sm text-slate-500 group-hover:text-emerald-400 transition-colors">verified</span>
+                    </div>
+                    <div class="text-sm font-bold text-white group-hover:text-emerald-400 transition-colors leading-snug">
+                        Youth Entrepreneurship Academy
+                    </div>
+                    <p class="text-xs text-slate-400 mt-2 line-clamp-2 flex-grow">Completed rigorous training in business leadership, case-study analysis, and strategic enterprise development.</p>
+                </a>
+
+                <a href="#" class="block bg-[#0a0f18] border border-white/10 p-5 rounded-2xl hover:border-red-500/50 transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_10px_30px_rgba(239,68,68,0.15)] group relative overflow-hidden flex flex-col h-full snap-start">
+                    <div class="aspect-[4/3] bg-slate-800 rounded-xl flex items-center justify-center mb-4 overflow-hidden relative">
+                        <span class="text-[10px] text-slate-500 font-mono z-10 group-hover:opacity-0 transition-opacity">/* Red Cross Image */</span>
+                        <img src="cross.jpg" alt="Red Cross Certificate" class="absolute inset-0 w-full h-full object-cover opacity-40 group-hover:opacity-100 transition-opacity duration-300"/>
+                    </div>
+                    <div class="flex items-center justify-between mb-2">
+                        <div class="text-[10px] font-mono text-red-500 uppercase tracking-widest px-2 py-0.5 bg-red-500/10 rounded">Red Cross</div>
+                        <span class="material-symbols-outlined text-sm text-slate-500 group-hover:text-red-500 transition-colors">verified</span>
+                    </div>
+                    <div class="text-sm font-bold text-white group-hover:text-red-500 transition-colors leading-snug">
+                        Youth Leadership Certificate
+                    </div>
+                    <p class="text-xs text-slate-400 mt-2 line-clamp-2 flex-grow">Demonstrated a deep commitment to humanitarian principles and leadership through frontline practical response training.</p>
+                </a>
+
+                <a href="#" class="block bg-[#0a0f18] border border-white/10 p-5 rounded-2xl hover:border-green-500/50 transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_10px_30px_rgba(34,197,94,0.15)] group relative overflow-hidden flex flex-col h-full snap-start">
+                    <div class="aspect-[4/3] bg-slate-800 rounded-xl flex items-center justify-center mb-4 overflow-hidden relative">
+                        <span class="text-[10px] text-slate-500 font-mono z-10 group-hover:opacity-0 transition-opacity">/* IET Image */</span>
+                        <img src="iet.jpg" alt="IET Certificate" class="absolute inset-0 w-full h-full object-cover opacity-40 group-hover:opacity-100 transition-opacity duration-300"/>
+                    </div>
+                    <div class="flex items-center justify-between mb-2">
+                        <div class="text-[10px] font-mono text-green-500 uppercase tracking-widest px-2 py-0.5 bg-green-500/10 rounded">I.E.T. Lagos</div>
+                        <span class="material-symbols-outlined text-sm text-slate-500 group-hover:text-green-500 transition-colors">verified</span>
+                    </div>
+                    <div class="text-sm font-bold text-white group-hover:text-green-500 transition-colors leading-snug">
+                        Student Leadership Seminar
+                    </div>
+                    <p class="text-xs text-slate-400 mt-2 line-clamp-2 flex-grow">Participated in foundational seminars focusing on ethical leadership, personal discipline, and community integration.</p>
+                </a>
+
+                <a href="#" class="block bg-[#0a0f18] border border-white/10 p-5 rounded-2xl hover:border-blue-400/50 transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_10px_30px_rgba(96,165,250,0.15)] group relative overflow-hidden flex flex-col h-full snap-start">
+                    <div class="aspect-[4/3] bg-slate-800 rounded-xl flex items-center justify-center mb-4 overflow-hidden relative">
+                        <span class="text-[10px] text-slate-500 font-mono z-10 group-hover:opacity-0 transition-opacity">/* Financial Risks Image */</span>
+                        <img src="finance.png" alt="UNICEF Certificate" class="absolute inset-0 w-full h-full object-cover opacity-40 group-hover:opacity-100 transition-opacity duration-300"/>
+                    </div>
+                    <div class="flex items-center justify-between mb-2">
+                        <div class="text-[10px] font-mono text-blue-400 uppercase tracking-widest px-2 py-0.5 bg-blue-400/10 rounded">UNICEF NLP</div>
+                        <span class="material-symbols-outlined text-sm text-slate-500 group-hover:text-blue-400 transition-colors">verified</span>
+                    </div>
+                    <div class="text-sm font-bold text-white group-hover:text-blue-400 transition-colors leading-snug">
+                        Financial Risks and Goals
+                    </div>
+                    <p class="text-xs text-slate-400 mt-2 line-clamp-2 flex-grow">Mastered foundational concepts in financial planning, risk assessment, and goal-oriented wealth management.</p>
+                </a>
+
+                <a href="#" class="block bg-[#0a0f18] border border-white/10 p-5 rounded-2xl hover:border-blue-400/50 transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_10px_30px_rgba(96,165,250,0.15)] group relative overflow-hidden flex flex-col h-full snap-start">
+                    <div class="aspect-[4/3] bg-slate-800 rounded-xl flex items-center justify-center mb-4 overflow-hidden relative">
+                        <span class="text-[10px] text-slate-500 font-mono z-10 group-hover:opacity-0 transition-opacity">/* Microsoft 365 Image */</span>
+                        <img src="365.png" alt="Microsoft Certificate" class="absolute inset-0 w-full h-full object-cover opacity-40 group-hover:opacity-100 transition-opacity duration-300"/>
+                    </div>
+                    <div class="flex items-center justify-between mb-2">
+                        <div class="text-[10px] font-mono text-blue-400 uppercase tracking-widest px-2 py-0.5 bg-blue-400/10 rounded">Microsoft / NLP</div>
+                        <span class="material-symbols-outlined text-sm text-slate-500 group-hover:text-blue-400 transition-colors">verified</span>
+                    </div>
+                    <div class="text-sm font-bold text-white group-hover:text-blue-400 transition-colors leading-snug">
+                        Getting Started with MS 365
+                    </div>
+                    <p class="text-xs text-slate-400 mt-2 line-clamp-2 flex-grow">Acquired essential operational skills in Microsoft's cloud-based productivity and global collaboration suite.</p>
+                </a>
+
+                <a href="#" class="block bg-[#0a0f18] border border-white/10 p-5 rounded-2xl hover:border-blue-400/50 transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_10px_30px_rgba(96,165,250,0.15)] group relative overflow-hidden flex flex-col h-full snap-start">
+                    <div class="aspect-[4/3] bg-slate-800 rounded-xl flex items-center justify-center mb-4 overflow-hidden relative">
+                        <span class="text-[10px] text-slate-500 font-mono z-10 group-hover:opacity-0 transition-opacity">/* Business Plan Image */</span>
+                        <img src="plan.png" alt="Business Plan Certificate" class="absolute inset-0 w-full h-full object-cover opacity-40 group-hover:opacity-100 transition-opacity duration-300"/>
+                    </div>
+                    <div class="flex items-center justify-between mb-2">
+                        <div class="text-[10px] font-mono text-blue-400 uppercase tracking-widest px-2 py-0.5 bg-blue-400/10 rounded">Microsoft / NLP</div>
+                        <span class="material-symbols-outlined text-sm text-slate-500 group-hover:text-blue-400 transition-colors">verified</span>
+                    </div>
+                    <div class="text-sm font-bold text-white group-hover:text-blue-400 transition-colors leading-snug">
+                        Creating a Business Plan
+                    </div>
+                    <p class="text-xs text-slate-400 mt-2 line-clamp-2 flex-grow">Learned to formally structure, draft, and optimize viable business models and strategic execution plans.</p>
+                </a>
+
+                <a href="#" class="block bg-[#0a0f18] border border-white/10 p-5 rounded-2xl hover:border-blue-400/50 transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_10px_30px_rgba(96,165,250,0.15)] group relative overflow-hidden flex flex-col h-full snap-start">
+                    <div class="aspect-[4/3] bg-slate-800 rounded-xl flex items-center justify-center mb-4 overflow-hidden relative">
+                        <span class="text-[10px] text-slate-500 font-mono z-10 group-hover:opacity-0 transition-opacity">/* Creativity Image */</span>
+                        <img src="creativity.png" alt="Creativity Certificate" class="absolute inset-0 w-full h-full object-cover opacity-40 group-hover:opacity-100 transition-opacity duration-300"/>
+                    </div>
+                    <div class="flex items-center justify-between mb-2">
+                        <div class="text-[10px] font-mono text-blue-400 uppercase tracking-widest px-2 py-0.5 bg-blue-400/10 rounded">Microsoft / NLP</div>
+                        <span class="material-symbols-outlined text-sm text-slate-500 group-hover:text-blue-400 transition-colors">verified</span>
+                    </div>
+                    <div class="text-sm font-bold text-white group-hover:text-blue-400 transition-colors leading-snug">
+                        Unleash Creativity
+                    </div>
+                    <p class="text-xs text-slate-400 mt-2 line-clamp-2 flex-grow">Developed actionable strategies to overcome creative blocks and drive conceptual innovation in entrepreneurial environments.</p>
+                </a>
+
+                <a href="#" class="block bg-[#0a0f18] border border-white/10 p-5 rounded-2xl hover:border-blue-400/50 transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_10px_30px_rgba(96,165,250,0.15)] group relative overflow-hidden flex flex-col h-full snap-start">
+                    <div class="aspect-[4/3] bg-slate-800 rounded-xl flex items-center justify-center mb-4 overflow-hidden relative">
+                        <span class="text-[10px] text-slate-500 font-mono z-10 group-hover:opacity-0 transition-opacity">/* Computers Image */</span>
+                        <img src="computers.png" alt="Computers Certificate" class="absolute inset-0 w-full h-full object-cover opacity-40 group-hover:opacity-100 transition-opacity duration-300"/>
+                    </div>
+                    <div class="flex items-center justify-between mb-2">
+                        <div class="text-[10px] font-mono text-blue-400 uppercase tracking-widest px-2 py-0.5 bg-blue-400/10 rounded">Microsoft / NLP</div>
+                        <span class="material-symbols-outlined text-sm text-slate-500 group-hover:text-blue-400 transition-colors">verified</span>
+                    </div>
+                    <div class="text-sm font-bold text-white group-hover:text-blue-400 transition-colors leading-snug">
+                        Working with Computers
+                    </div>
+                    <p class="text-xs text-slate-400 mt-2 line-clamp-2 flex-grow">Solidified core IT competencies for modern hardware troubleshooting and digital workspace management.</p>
+                </a>
+
+                <a href="#" class="block bg-[#0a0f18] border border-white/10 p-5 rounded-2xl hover:border-blue-400/50 transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_10px_30px_rgba(96,165,250,0.15)] group relative overflow-hidden flex flex-col h-full snap-start">
+                    <div class="aspect-[4/3] bg-slate-800 rounded-xl flex items-center justify-center mb-4 overflow-hidden relative">
+                        <span class="text-[10px] text-slate-500 font-mono z-10 group-hover:opacity-0 transition-opacity">/* Collaborating Image */</span>
+                        <img src="online.png" alt="Collaborating Certificate" class="absolute inset-0 w-full h-full object-cover opacity-40 group-hover:opacity-100 transition-opacity duration-300"/>
+                    </div>
+                    <div class="flex items-center justify-between mb-2">
+                        <div class="text-[10px] font-mono text-blue-400 uppercase tracking-widest px-2 py-0.5 bg-blue-400/10 rounded">Microsoft / NLP</div>
+                        <span class="material-symbols-outlined text-sm text-slate-500 group-hover:text-blue-400 transition-colors">verified</span>
+                    </div>
+                    <div class="text-sm font-bold text-white group-hover:text-blue-400 transition-colors leading-snug">
+                        Collaborating Online
+                    </div>
+                    <p class="text-xs text-slate-400 mt-2 line-clamp-2 flex-grow">Mastered digital communication tools and remote teamwork strategies for distributed engineering environments.</p>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+   <section id="feedback" class="relative py-24 px-6 bg-slate-900/50 border-t border-white/5 z-10 overflow-hidden">
+        
+        <div class="absolute top-0 right-0 w-96 h-96 bg-primary/5 rounded-full blur-[120px] pointer-events-none"></div>
+
+        <div class="max-w-6xl mx-auto relative z-10">
+            <h2 class="text-3xl md:text-4xl font-display font-bold text-white mb-12 flex items-center gap-3">
+                <span class="text-neon-cyan">12.</span> ENCRYPTED_FEEDBACK
+                <span class="px-2 py-0.5 bg-neon-cyan/10 border border-neon-cyan/20 rounded text-[9px] font-mono text-neon-cyan tracking-widest uppercase animate-pulse">Decrypted</span>
+            </h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                
+                <div class="bg-gradient-to-br from-[#0a0f18] to-slate-900 border border-white/10 p-8 rounded-2xl hover:border-neon-cyan/50 transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_15px_40px_rgba(0,242,255,0.15)] flex flex-col h-full group relative">
+                    <span class="material-symbols-outlined text-5xl text-neon-cyan/20 absolute top-6 right-6 group-hover:text-neon-cyan/40 transition-colors duration-500">format_quote</span>
+                    
+                    <p class="text-sm text-slate-300 italic mb-8 leading-relaxed flex-grow relative z-10 pt-4 border-t border-white/5 mt-4">
+                        "[Insert a powerful quote from a mentor, teammate, or client here. Highlight your reliability, engineering skills, or leadership during a specific project.]"
+                    </p>
+                    
+                    <div class="flex items-center gap-4 mt-auto">
+                        <div class="w-12 h-12 rounded-full bg-neon-cyan/10 border border-neon-cyan/30 flex items-center justify-center font-bold text-neon-cyan group-hover:bg-neon-cyan group-hover:text-black transition-colors duration-500">
+                            NP
+                        </div>
+                        <div>
+                            <div class="text-white font-bold text-base">Name Placeholder</div>
+                            <div class="text-[10px] text-slate-500 uppercase font-mono tracking-widest mt-1">Title / Organization</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-gradient-to-br from-[#0a0f18] to-slate-900 border border-white/10 p-8 rounded-2xl hover:border-purple-500/50 transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_15px_40px_rgba(168,85,247,0.15)] flex flex-col h-full group relative">
+                    <span class="material-symbols-outlined text-5xl text-purple-400/20 absolute top-6 right-6 group-hover:text-purple-400/40 transition-colors duration-500">format_quote</span>
+                    
+                    <p class="text-sm text-slate-300 italic mb-8 leading-relaxed flex-grow relative z-10 pt-4 border-t border-white/5 mt-4">
+                        "[Insert a powerful quote from a mentor, teammate, or client here. Highlight your reliability, engineering skills, or leadership during a specific project.]"
+                    </p>
+                    
+                    <div class="flex items-center gap-4 mt-auto">
+                        <div class="w-12 h-12 rounded-full bg-purple-500/10 border border-purple-500/30 flex items-center justify-center font-bold text-purple-400 group-hover:bg-purple-500 group-hover:text-white transition-colors duration-500">
+                            NP
+                        </div>
+                        <div>
+                            <div class="text-white font-bold text-base">Name Placeholder</div>
+                            <div class="text-[10px] text-slate-500 uppercase font-mono tracking-widest mt-1">Title / Organization</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-gradient-to-br from-[#0a0f18] to-slate-900 border border-white/10 p-8 rounded-2xl hover:border-primary/50 transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_15px_40px_rgba(19,91,236,0.15)] flex flex-col h-full group relative">
+                    <span class="material-symbols-outlined text-5xl text-primary/20 absolute top-6 right-6 group-hover:text-primary/40 transition-colors duration-500">format_quote</span>
+                    
+                    <p class="text-sm text-slate-300 italic mb-8 leading-relaxed flex-grow relative z-10 pt-4 border-t border-white/5 mt-4">
+                        "A perfect combination of beauty and brain, a jerk and a straight A student."
+                    </p>
+                    
+                    <div class="flex items-center gap-4 mt-auto">
+                        <div class="w-12 h-12 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center font-bold text-primary group-hover:bg-primary group-hover:text-white transition-colors duration-500 shadow-[0_0_15px_rgba(19,91,236,0.5)]">
+                            CM
+                        </div>
+                        <div>
+                            <div class="text-white font-bold text-base">Course Mate</div>
+                            <div class="text-[10px] text-slate-500 uppercase font-mono tracking-widest mt-1">@ WAEC</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="relative py-32 px-6 border-t border-white/5 z-10 bg-gradient-to-b from-[#0a0f18] to-black overflow-hidden">
+        
+        <div class="absolute bottom-0 left-1/2 -translate-x-1/2 w-full max-w-3xl h-64 bg-primary/20 blur-[150px] pointer-events-none"></div>
+
+        <div class="max-w-4xl mx-auto text-center relative z-20">
+            
+            <div class="inline-flex items-center gap-2 px-4 py-2 bg-slate-900 border border-white/10 rounded-full mb-8 shadow-xl">
+                <div class="w-2.5 h-2.5 bg-emerald-500 rounded-full animate-pulse shadow-[0_0_10px_rgba(16,185,129,0.8)]"></div>
+                <span class="text-xs font-mono text-slate-300 tracking-widest uppercase">System Status: Ready for Deployment</span>
+            </div>
+
+            <h2 class="text-5xl md:text-7xl font-display font-bold text-white mb-6 tracking-tight">
+                ESTABLISH <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-neon-cyan">UPLINK</span>
+            </h2>
+            
+            <p class="text-lg text-slate-400 mb-12 max-w-2xl mx-auto leading-relaxed">
+                Whether you need a Full Stack Developer to build scalable software, a Mechatronics Engineer to prototype hardware, or a visionary leader to drive a project, my terminal is open.
+            </p>
+
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-6 mb-16">
+                <a href="mailto:usman.me1703@gmail.com" class="group relative px-8 py-4 bg-white text-black font-bold rounded-full hover:scale-105 transition-all duration-300 shadow-[0_0_30px_rgba(255,255,255,0.2)] hover:shadow-[0_0_40px_rgba(255,255,255,0.4)] flex items-center gap-3 w-full sm:w-auto justify-center">
+                    <span class="material-symbols-outlined group-hover:-rotate-12 transition-transform">mail</span> 
+                    Initialize Email
+                </a>
+                
+                <a href="tel:+2348070804833" class="group relative px-8 py-4 bg-slate-900 border border-white/20 text-white font-bold rounded-full hover:bg-slate-800 hover:border-primary/50 transition-all duration-300 flex items-center gap-3 w-full sm:w-auto justify-center">
+                    <span class="material-symbols-outlined text-primary group-hover:scale-110 transition-transform">call</span> 
+                    +234 807 080 4833
+                </a>
+            </div>
+
+            <div class="flex flex-wrap justify-center gap-8 md:gap-12 text-slate-500 border-t border-white/10 pt-12 max-w-2xl mx-auto">
+                
+                <a href="https://www.linkedin.com/in/usman-damilare-abubakar-a12571386/" target="_blank" class="flex flex-col items-center gap-2 hover:text-primary transition-colors group">
+                    <span class="material-symbols-outlined text-3xl group-hover:-translate-y-1 transition-transform">share</span>
+                    <span class="text-[10px] font-mono uppercase tracking-widest">LinkedIn</span>
+                </a>
+                
+                <a href="https://github.com/usmanme1703" target="_blank" class="flex flex-col items-center gap-2 hover:text-emerald-400 transition-colors group">
+                    <span class="material-symbols-outlined text-3xl group-hover:-translate-y-1 transition-transform">code</span>
+                    <span class="text-[10px] font-mono uppercase tracking-widest">GitHub</span>
+                </a>
+
+                <a href="https://x.com/ADUsman1703" target="_blank" class="flex flex-col items-center gap-2 hover:text-white transition-colors group">
+                    <span class="material-symbols-outlined text-3xl group-hover:-translate-y-1 transition-transform">alternate_email</span>
+                    <span class="text-[10px] font-mono uppercase tracking-widest">X (Twitter)</span>
+                </a>
+
+                <a href="https://www.instagram.com/dbm_official1703/" target="_blank" class="flex flex-col items-center gap-2 hover:text-purple-400 transition-colors group">
+                    <span class="material-symbols-outlined text-3xl group-hover:-translate-y-1 transition-transform">photo_camera</span>
+                    <span class="text-[10px] font-mono uppercase tracking-widest">Instagram</span>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-8 text-center bg-black z-10 relative border-t border-white/10">
+        <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
+            <p class="text-slate-500 text-xs font-mono tracking-widest">
+                &copy; 2026 USMAN ABUBAKAR DAMILARE. ALL SYSTEMS NOMINAL.
+            </p>
+            <div class="flex items-center gap-2 text-xs font-mono text-slate-600">
+                Built with <span class="material-symbols-outlined text-[14px] text-red-500/80">favorite</span> and <span class="material-symbols-outlined text-[14px] text-yellow-500/80">bolt</span>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
